@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		12AE03212B0497CC0081F1A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AE03202B0497CC0081F1A6 /* AppDelegate.swift */; };
 		12AE03232B0497CC0081F1A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AE03222B0497CC0081F1A6 /* SceneDelegate.swift */; };
-		12AE03252B0497CC0081F1A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AE03242B0497CC0081F1A6 /* ViewController.swift */; };
-		12AE03282B0497CC0081F1A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12AE03262B0497CC0081F1A6 /* Main.storyboard */; };
+		12AE03252B0497CC0081F1A6 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AE03242B0497CC0081F1A6 /* LoginController.swift */; };
 		12AE032A2B0497CD0081F1A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12AE03292B0497CD0081F1A6 /* Assets.xcassets */; };
 		12AE032D2B0497CD0081F1A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12AE032B2B0497CD0081F1A6 /* LaunchScreen.storyboard */; };
+		12AE033A2B049AE50081F1A6 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AE03392B049AE50081F1A6 /* CustomButton.swift */; };
+		12AE033C2B049B770081F1A6 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AE033B2B049B770081F1A6 /* HeaderView.swift */; };
+		12AE033E2B04BBA50081F1A6 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AE033D2B04BBA50081F1A6 /* CustomTextField.swift */; };
+		12AE03422B04D8890081F1A6 /* ForgotPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AE03412B04D8890081F1A6 /* ForgotPasswordController.swift */; };
+		12AE03442B04D9280081F1A6 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AE03432B04D9280081F1A6 /* CustomLabel.swift */; };
+		12AE03472B04DC700081F1A6 /* FontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AE03462B04DC700081F1A6 /* FontSize.swift */; };
+		12AE03492B04EBA70081F1A6 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AE03482B04EBA70081F1A6 /* SignUpController.swift */; };
+		12AE034B2B04F4450081F1A6 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AE034A2B04F4450081F1A6 /* HomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		12AE031D2B0497CC0081F1A6 /* FireGate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireGate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12AE03202B0497CC0081F1A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12AE03222B0497CC0081F1A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		12AE03242B0497CC0081F1A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		12AE03272B0497CC0081F1A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12AE03242B0497CC0081F1A6 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		12AE03292B0497CD0081F1A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12AE032C2B0497CD0081F1A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12AE032E2B0497CD0081F1A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12AE03392B049AE50081F1A6 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		12AE033B2B049B770081F1A6 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		12AE033D2B04BBA50081F1A6 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		12AE03412B04D8890081F1A6 /* ForgotPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordController.swift; sourceTree = "<group>"; };
+		12AE03432B04D9280081F1A6 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		12AE03462B04DC700081F1A6 /* FontSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSize.swift; sourceTree = "<group>"; };
+		12AE03482B04EBA70081F1A6 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		12AE034A2B04F4450081F1A6 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,54 @@
 		12AE031F2B0497CC0081F1A6 /* FireGate */ = {
 			isa = PBXGroup;
 			children = (
+				12AE03452B04DC5F0081F1A6 /* Extension */,
+				12AE033F2B04D7570081F1A6 /* Model */,
+				12AE03342B049AA60081F1A6 /* View */,
+				12AE03402B04D8310081F1A6 /* Controller */,
 				12AE03202B0497CC0081F1A6 /* AppDelegate.swift */,
 				12AE03222B0497CC0081F1A6 /* SceneDelegate.swift */,
-				12AE03242B0497CC0081F1A6 /* ViewController.swift */,
-				12AE03262B0497CC0081F1A6 /* Main.storyboard */,
 				12AE03292B0497CD0081F1A6 /* Assets.xcassets */,
 				12AE032B2B0497CD0081F1A6 /* LaunchScreen.storyboard */,
 				12AE032E2B0497CD0081F1A6 /* Info.plist */,
 			);
 			path = FireGate;
+			sourceTree = "<group>";
+		};
+		12AE03342B049AA60081F1A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				12AE033B2B049B770081F1A6 /* HeaderView.swift */,
+				12AE03392B049AE50081F1A6 /* CustomButton.swift */,
+				12AE033D2B04BBA50081F1A6 /* CustomTextField.swift */,
+				12AE03432B04D9280081F1A6 /* CustomLabel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		12AE033F2B04D7570081F1A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		12AE03402B04D8310081F1A6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				12AE03242B0497CC0081F1A6 /* LoginController.swift */,
+				12AE03412B04D8890081F1A6 /* ForgotPasswordController.swift */,
+				12AE03482B04EBA70081F1A6 /* SignUpController.swift */,
+				12AE034A2B04F4450081F1A6 /* HomeController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		12AE03452B04DC5F0081F1A6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				12AE03462B04DC700081F1A6 /* FontSize.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +180,6 @@
 			files = (
 				12AE032D2B0497CD0081F1A6 /* LaunchScreen.storyboard in Resources */,
 				12AE032A2B0497CD0081F1A6 /* Assets.xcassets in Resources */,
-				12AE03282B0497CC0081F1A6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +190,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12AE03252B0497CC0081F1A6 /* ViewController.swift in Sources */,
+				12AE03492B04EBA70081F1A6 /* SignUpController.swift in Sources */,
+				12AE033C2B049B770081F1A6 /* HeaderView.swift in Sources */,
+				12AE034B2B04F4450081F1A6 /* HomeController.swift in Sources */,
+				12AE03472B04DC700081F1A6 /* FontSize.swift in Sources */,
+				12AE03422B04D8890081F1A6 /* ForgotPasswordController.swift in Sources */,
+				12AE033A2B049AE50081F1A6 /* CustomButton.swift in Sources */,
+				12AE033E2B04BBA50081F1A6 /* CustomTextField.swift in Sources */,
+				12AE03252B0497CC0081F1A6 /* LoginController.swift in Sources */,
 				12AE03212B0497CC0081F1A6 /* AppDelegate.swift in Sources */,
 				12AE03232B0497CC0081F1A6 /* SceneDelegate.swift in Sources */,
+				12AE03442B04D9280081F1A6 /* CustomLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		12AE03262B0497CC0081F1A6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				12AE03272B0497CC0081F1A6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		12AE032B2B0497CD0081F1A6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -218,7 +270,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,7 +327,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -297,9 +349,9 @@
 				INFOPLIST_FILE = FireGate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,9 +377,9 @@
 				INFOPLIST_FILE = FireGate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
