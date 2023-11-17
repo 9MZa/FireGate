@@ -48,7 +48,7 @@ class SignUpController: UIViewController {
     
     // MARK: - Action
     @objc func buttonDidTapped() {
-        let vc = LoginController()
+        let vc = SignInController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
 

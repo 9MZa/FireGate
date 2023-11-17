@@ -7,7 +7,7 @@
 
 import UIKit
 
-class LoginController: UIViewController {
+class SignInController: UIViewController {
     private let headerView = HeaderView(title: "Sign In", subTitle: "Sign in to your account")
     private let emailField = CustomTextField(fieldType: .email)
     private let passwordField = CustomTextField(fieldType: .password)
@@ -42,7 +42,7 @@ class LoginController: UIViewController {
         signUpbutton.addTarget(self, action: #selector(signUpDidTapped), for: .touchUpInside)
         forgotPasswordButton.addTarget(self, action: #selector(forgotDidtapped), for: .touchUpInside)
 
-        let backBarButton = UIBarButtonItem(title: "Sign Up", style: .plain, target: nil, action: nil)
+        let backBarButton = UIBarButtonItem(title: "Sign In", style: .plain, target: nil, action: nil)
         navigationItem.backBarButtonItem = backBarButton
 
         setupConstriants()
