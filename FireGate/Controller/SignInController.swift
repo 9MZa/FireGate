@@ -41,19 +41,26 @@ class SignInController: UIViewController {
         signInButton.addTarget(self, action: #selector(signInDidTapped), for: .touchUpInside)
         signUpbutton.addTarget(self, action: #selector(signUpDidTapped), for: .touchUpInside)
         forgotPasswordButton.addTarget(self, action: #selector(forgotDidtapped), for: .touchUpInside)
-
+        
         let backBarButton = UIBarButtonItem(title: "Sign In", style: .plain, target: nil, action: nil)
         navigationItem.backBarButtonItem = backBarButton
-
+        
         setupConstriants()
     }
     
     // MARK: - Action
     @objc func signInDidTapped() {
-        let vc = HomeController()
-        vc.modalPresentationStyle = .fullScreen
-        vc.modalTransitionStyle = .crossDissolve
-        present(vc, animated: true)
+        let user = SignInUser(email: emailField.text ?? "", password: passwordField.text ?? "")
+        AuthService.shared.signIn(with: user) { error in
+            if let error = error {
+                AlertManager.signInErrorAlert(on: self, with: error)
+                return
+            }
+            
+            if let sceneDelegate = self.view.window?.windowScene?.delegate as? SceneDelegate {
+                sceneDelegate.checkAuthentication()
+            }
+        }
     }
     
     @objc func signUpDidTapped() {
@@ -65,7 +72,7 @@ class SignInController: UIViewController {
         let vc = ForgotPasswordController()
         navigationController?.pushViewController(vc, animated: true)
     }
-
+    
     // MARK: - Constriants
     private func setupConstriants() {
         NSLayoutConstraint.activate([
@@ -84,10 +91,10 @@ class SignInController: UIViewController {
             passwordField.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             passwordField.heightAnchor.constraint(equalToConstant: 55),
             passwordField.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.85),
-
+            
             forgotPasswordButton.topAnchor.constraint(equalTo: passwordField.bottomAnchor, constant: 5),
             forgotPasswordButton.trailingAnchor.constraint(equalTo: passwordField.trailingAnchor),
-
+            
             signInButton.topAnchor.constraint(equalTo: forgotPasswordButton.bottomAnchor,constant: 20),
             signInButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             signInButton.heightAnchor.constraint(equalToConstant: 55),
