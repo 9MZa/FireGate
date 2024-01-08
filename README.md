@@ -14,3 +14,6 @@ FireGate is a simple Sign In and Sign Up app integrate with Firebase then displa
 
 - UIKit (Programmatic UI)
 - Firebase
+
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+](https://github.com/bdsach/FireGate)
